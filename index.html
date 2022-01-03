@@ -4,65 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
     <title>Odin Landing Page</title>
 </head>
 <body>
-    <div class="footer">
-        <footer>
-           <img src="./img/tinkerbear-logo-white.png" alt="">
+        <header>
+           <a href="index.html"><img class="logo" src="./img/tinkerbear-logo-white.png" alt=""></a>
+
+           <nav class="header-links">
+            <p><a href="./index.html" target="_blank">Home</a></p>
            <p><a href="https://github.com/ChristineCPham" target="_blank">Github</a></p> 
            <p><a href="https://www.linkedin.com/in/christine-p-b456751a6/" target="_blank">LinkedIn</a></p>
-           <p><a href="https://thewatchdogonline.com/author/christinepham" target="_blank">Articles</a></p>
-        </footer>
-    </div>
+          </nav>
+        </header>
 
     <div class="overview">
+    <div class="overview-text">
         <h1>This website is dogsome</h1>
-        <p>This website is all about my dog, Tinkerbear. She is a four year old border collie. Tinkerbear is a good girl and she can prove it!</p>
-        <button><a href="https://www.linkedin.com/in/christine-p-b456751a6/" target="_blank">Contact Us</a></button>
-        <img src="img/tinkerbear-pink-toy-two.jpg">
+        <p>This website is all about my dog, <b>Tinkerbear</b>. She is a four year old border collie. Tinkerbear is a good girl and she can prove it!</p>
+        <button><a href="./pages/gallery.html" target="">Tinkerbear Gallery</a></button>
+    </div>
+        <img src="img/tinkerbear-with-toy.jpg">
     </div>
 
     <div class="info">
         <h2>Who is Tinkerbear?</h2>
-
+    <div class="info-sections">
         <div class="play">
-            <img src="img/tinkerbear-tugawar-hearts.jpg" alt="">
-            <p>Tinkerbear enjoys playing every second she can. As long as there is a toy nearby, she will not rest. Tinkerbear likes balls and squeaky toys the most.</p>
+            <img src="img/tinkerbear-tugawar.jpg" alt="">
+            <p>Tinkerbear enjoys playing every second she can. She will play non-stop with her squeaky toys and basketballs.</p>
         </div>
 
         <div class="studying">
-            <img src="img/tinkerbear-studying-edited.jpg" alt="Tinkerbear is studying with a laptop and textbook.">
-            <p>As an intellectual, Tinkerbear places an high important on her education. Her favorite classes are: Human Training 101, Stealing Food 301, and Chasing Cats 201.</p>
+            <img src="img/tinkerbear-studying.jpg" alt="Tinkerbear is studying with a laptop and textbook.">
+            <p>Tinkerbear places an high importance on her education. Her favorite class is Human Training 101.</p>
         </div>
 
         <div class="begging">
             <img src="img/tinkerbear-begging.jpg" alt="Tinkerbear is begging for food on the couch.">
-            <p>Tinkerbear has mastered the art of begging. With in five minutes, she can convince guests to give her a day's worth of food. Her owner does not approve of this behavior.</p>
+            <p>Tinkerbear has mastered the art of begging for food, as shown above. How can you resist that face?</p>
         </div>
 
-        <div class="scare">
-            <img src="img/tinkerbear-under-bed-three.jpg" alt="Tinkerbear is hiding under the bed.">
-            <p>Tinkerbear is a big scaredy-cat. She will take refuge under the bed whenever she hears fireworks. If she hears them outdoors, she will run behind large men.</p>
+        <div class="baby">
+            <img src="img/tinkerbear-under-bed.jpg" alt="Tinkerbear is hiding under the bed.">
+            <p>Tinkerbear is a big baby. She will take refuge under the bed whenever she hears fireworks and refuse to come out.</p>
         </div>
+    </div>
 
     </div>
 
     <div class="quote-section">
-        <p class="quote">"Dogs teach us a very important lesson in life: The mail man is not to be trusted"</p>
+        <p class="quote">"Dogs teach us a very important lesson in life: The mail man is not to be trusted."</p>
         <p class="quote-author">-Sian Ford</p>
     </div>
 
     <div class="cta-section">
-        <div class="cta=box">
-            <p class="cta-title">Contact us for more information about Tinkerbear!</p>
-            <p>Tinkerbear is currently not availible for performances, due to her busy play-eat-sleep schedule. However she is open to conversing in the following languages: Barkies, Ruff Ruff, and Woofers.</p>
-            <button><a href="https://www.linkedin.com/in/christine-p-b456751a6/" target="_blank">Contact Us</a></button>
+        <div class="cta-box">
+        <div class="cta-info">
+            <p class="cta-title">Learn more about Tinkerbear!</p>
+            <p class="cta-text">Tinkerbear is currently not available for barking performances due to her busy playing and eating schedule.</p>
         </div>
+            <button class="cta-button"><a href="https://www.linkedin.com/in/christine-p-b456751a6/" target="_blank"><nobr>Contact Us</nobr></a></button>
+     </div>
+
     </div>
 
-    <div class="footer">
+    <footer class="footer">
         <p>Copyright © The Odin Project 2021</p>
-    </div>
+    </footer>
 </body>
 </html>
